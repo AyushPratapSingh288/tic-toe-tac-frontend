@@ -1,0 +1,23 @@
+.square {
+    justify-content: center;
+    align-items: center;
+    background-color: #f08f44;
+    border: 3px solid #333;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .square:hover {
+    background-color: #d1d1d1;
+    transform: scale(1.05);
+  }
+  
+  .square:active {
+    background-color: #c1c1c1;
+    transform: scale(0.95);
+  }
+  
